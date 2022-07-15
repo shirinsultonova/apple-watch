@@ -5,6 +5,20 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 
 
 
@@ -55,14 +69,17 @@ img{
 }
 
 .visually-hidden {
-    clip: rect(0 0 0 0);
-    -webkit-clip-path: inset(50%);
-            clip-path: inset(50%);
-    height: 1px;
-    overflow: hidden;
     position: absolute;
-    white-space: nowrap;
     width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    white-space: nowrap;
+    -webkit-clip-path: inset(100%);
+            clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .container{
@@ -72,7 +89,9 @@ img{
     padding-right: 20px;
     padding-left: 20px;
 }
-
+.sitenav{
+    margin-right: 40px;
+}
 .hero{
     
     display: -webkit-box;
@@ -89,9 +108,6 @@ img{
 }
 
 .site-list{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     list-style: none;
 }
 .sitenav-link{
@@ -101,17 +117,30 @@ img{
     text-align: center;
     color: #333333;
     text-decoration: none;
-    margin-left: 30px;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
 }
+.site-item{
+    margin-right: 30px;
+}
+.site-item:nth-child(4){
+    margin-right: 0;
+}
 
-.site-link{
-    margin-left: 502px;
+.wrapper{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .sitenav-link:hover{
-    width: 41px;
+
     border-bottom: 3px solid #333333;
     -webkit-transform: rotate(0.16deg);
         -ms-transform: rotate(0.16deg);
@@ -130,9 +159,9 @@ img{
     -webkit-transform: rotate(0.16deg);
         -ms-transform: rotate(0.16deg);
             transform: rotate(0.16deg);
-    width: 153px;
     
 }
+
 .hero-top{
     padding-top: 170px;
     padding-bottom: 185px;
@@ -167,7 +196,6 @@ color: #000000;
 }
 
 .links{
-    width: 260px;
     display: inline-block;
     padding: 12px 38px;
     background: #EA625C;
