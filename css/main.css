@@ -1,0 +1,318 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+
+
+
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    src: local(""),
+    url("../fonts/roboto-v30-latin-regular.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url("../fonts/roboto-v30-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    src: local(""),
+    url("../fonts/roboto-v30-latin-700.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url("../fonts/roboto-v30-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+
+html{
+    height: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: "Roboto", "Arial", sans-serif;
+    height: 100%;
+}
+
+img{
+    display: block;
+    height: auto;
+}
+.site-header{
+    margin-top: 30px;
+}
+.site-main{
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    -webkit-clip-path: inset(50%);
+            clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.container{
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.hero{
+    
+    display: -webkit-box;
+    
+    display: -ms-flexbox;
+    
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.site-list{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+}
+.sitenav-link{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    color: #333333;
+    text-decoration: none;
+    margin-left: 30px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.site-link{
+    margin-left: 502px;
+}
+.sitenav-link:hover{
+    width: 41px;
+    border-bottom: 3px solid #333333;
+    -webkit-transform: rotate(0.16deg);
+        -ms-transform: rotate(0.16deg);
+            transform: rotate(0.16deg);
+    opacity: 0.6;
+}
+
+.site-form{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    color: #666666;
+    border: none;
+    border-bottom: 1px solid #333333;
+    -webkit-transform: rotate(0.16deg);
+        -ms-transform: rotate(0.16deg);
+            transform: rotate(0.16deg);
+    width: 153px;
+    
+}
+.hero-top{
+    padding-top: 170px;
+    padding-bottom: 185px;
+}
+.freedom-text{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 120%;
+color: #000000;
+}
+.freedom-intro{
+    width: 490px;
+}
+.freedom-txt{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
+    text-align: center;
+    color: #000000;
+}
+.freedom-info{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #777777;
+    border-left: 3px solid #888888;
+    padding-left: 40px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.links{
+    width: 260px;
+    display: inline-block;
+    padding: 12px 38px;
+    background: #EA625C;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+    
+    
+}
+
+.know-txt{
+font-weight: 700;
+font-size: 18px;
+line-height: 150%;
+text-transform: uppercase;
+color: #222222;
+}
+.hero-top{
+    margin-top: 80px;
+    padding-top: 91px;
+    padding-bottom: 185px;
+    background-image: url("../images/watches.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: calc(50% + 73%) calc(50%);
+    border-bottom: 2px solid #ddd;
+}
+.links:hover{
+    background-color: #C9514C;
+}
+
+.know-list{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    padding-top: 68px;
+    padding-bottom: 168px;
+    list-style: none;
+}
+
+.know-item:nth-child(2){
+    margin-right: 80px;
+    margin-left: 80px;
+}
+.know-info{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #333333;
+}
+.know-box{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    
+}
+span{
+    margin-right: 10px;
+    width: 8px;
+    height: 8px;
+    display: block;
+    background-color: #ddd;
+}
+
+.know-link{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    text-transform: uppercase;
+    color: #EA625C;
+}
+.know-link::before{
+    content: "";
+    display: block;
+    width: 40px;
+    height: 3px;
+    margin-right: 10px;
+    background-color: #EA625C;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    
+}
+.apple:hover .know-link::before{
+    width: 60px;
+}
+
+.nike-top{
+    padding-bottom: 176px;
+}
+.nike-sport{
+    padding-top: 70px;
+    width: 490px;
+    
+}
+.nike-link{
+    background: #C9514C;
+}
+.nike-link:hover{
+    background-color: #EA625C;
+}
+
+.nike-intro{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.hero-footer{
+    padding: 240px 0;
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/runners.png");
+}
+.run-box{
+    width: 490px;
+    margin-left: auto;
+}
+.footer-text{
+font-weight: 700;
+font-size: 50px;
+line-height: 120%;
+color: #FFFFFF;
+    color: #FFFFFF;
+}
+.footer-txt{
+    color: #FFFFFF;
+    border-left: 3px solid #fff;
+    margin-bottom: 42px;
+}
